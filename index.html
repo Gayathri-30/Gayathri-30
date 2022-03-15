@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To Do List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="todo()">
+        <div class="container">
+            <div class="h1"> 
+                <h1>TO DO LIST</h1>
+            </div>
+        <div id="newtask">
+            <input type="text" id="addtask"placeholder="Task to be done..">
+            <button id="push">Add</button>
+        </div>
+        <div id="tasks"><div id="footer"> 
+            <button id="del" onclick="deleteCompleted()">clrcomplete</button>
+            <button id="empty" onclick="empty()">emptylist</button>
+            <button id="save" onclick="save()">savelist</button>
+        </div></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
